@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Gallery</title>
+  <style>
+  *{
+  font-family: Verdana;
+  font-size: 14px;
+}
+img{
+  border: 1px solid lightgray;
+  border-radius: 4px; 
+  padding: 2%; 
+  height: 120px;
+  margin-top: 10px;
+  background-color: rgb(120, 150, 250);
+  position: relative;
+}
+
+
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.6);
+}
+
+a{
+  text-decoration: none;
+  color: gray;
+}
+p{
+    color: black;
+    position: relative;
+    float:left;
+}
+h1{
+  font-size: 18px;
+  font-weight: lighter;
+}
+.overlayimg{
+    position:relative;
+    width:fit-content;
+
+    
+}
+.overlayimg .overlaytxt{
+    
+  
+  position: relative;
+  text-align: center;
+    border: solid 1px rgb(184, 183, 183);
+    border-radius: 4px;
+    background-color: whitesmoke;
+    margin-top: -12%;
+    padding-left: 5%;
+    width:97.5%;
+
+}
+#flexbox1{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row;
+    align-content:space-between;
+    justify-content: center;
+}
+
+
+.row {
+width: 100%;
+display: flex;
+flex-flow: row wrap;
+justify-content: space-between;
+}
+.overlayimg{
+
+box-sizing: border-box;
+margin: 2.5%;
+
+}
+
+@media screen and (max-width: 1024px) {
+.overlayimg {
+flex-basis: 10%;
+}
+}
+@media screen and (max-width: 768px) {
+.overlayimg {
+flex-basis: 16.67%;
+}
+}
+@media screen and (max-width: 414px) {
+.overlayimg {
+flex-basis: 100%;
+
+
+}
+}
+
+
+  </style>
+</head>
+<body>
+  <h1>Gallery heading</h1>
+  <div id="flexbox1">
+   <div class="row">
+  <div class="overlayimg">
+<a target="_blank" href="placeholder-image.png">
+  <img src="placeholder-image.png" alt="Image title">
+  <div class="overlaytxt">Image title</div></a>
+</div>
+<div class="overlayimg">
+    <a target="_blank" href="placeholder-image.png">
+      <img src="placeholder-image.png" alt="Image title">
+      <div class="overlaytxt">Image title</div></a>
+    </div>
+    <div class="overlayimg">
+        <a target="_blank" href="placeholder-image.png">
+          <img src="placeholder-image.png" alt="Image title">
+          <div class="overlaytxt">Image title</div></a>
+        </div>
+        <div class="overlayimg">
+            <a target="_blank" href="placeholder-image.png">
+              <img src="placeholder-image.png" alt="Image title">
+              <div class="overlaytxt">Image title</div></a>
+            </div>
+            <div class="overlayimg">
+                <a target="_blank" href="placeholder-image.png">
+                  <img src="placeholder-image.png" alt="Image title">
+                  <div class="overlaytxt">Image title</div></a>
+                 
+                </div>
+        
+           
+                <div class="overlayimg">
+                    <a target="_blank" href="placeholder-image.png">
+                      <img src="placeholder-image.png" alt="Image title">
+                      <div class="overlaytxt">Image title</div></a>
+                    </div>
+                    <div class="overlayimg">
+                        <a target="_blank" href="placeholder-image.png">
+                          <img src="placeholder-image.png" alt="Image title">
+                          <div class="overlaytxt">Image title</div></a>
+                        </div>
+                        <div class="overlayimg">
+                            <a target="_blank" href="placeholder-image.png">
+                              <img src="placeholder-image.png" alt="Image title">
+                              <div class="overlaytxt">Image title</div></a>
+                            </div>
+                            <div class="overlayimg">
+                                <a target="_blank" href="placeholder-image.png">
+                                  <img src="placeholder-image.png" alt="Image title">
+                                  <div class="overlaytxt">Image title</div></a>
+                                </div>
+                                <div class="overlayimg">
+                                    <a target="_blank" href="placeholder-image.png">
+                                      <img src="placeholder-image.png" alt="Image title">
+                                      <div class="overlaytxt">Image title</div></a>
+                                    </div></div></div>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pulvinar purus quis mauris euismod, ornare consectetur nibh tristique. Quisque aliquam elit ac lacinia viverra. Sed dictum varius diam in eleifend. Sed hendrerit ipsum vitae lacus laoreet tristique ut sed risus. Mauris tincidunt quam eu magna molestie, ut fermentum sem consequat. Ut maximus, libero ac ultrices vehicula, nunc mauris tincidunt lorem, sed ullamcorper nisi risus sed tortor. Nam ut turpis eros. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer accumsan lacinia magna, ut aliquet metus pretium ut. Proin ut maximus neque. Maecenas iaculis porta ultricies. Maecenas fringilla malesuada luctus. Sed venenatis, libero quis commodo euismod, dui justo pharetra risus, id faucibus urna elit in neque.
+
+</p>
+</body>
+</html>
